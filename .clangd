@@ -1,0 +1,4 @@
+CompileFlags:
+  # Catch2's TEST_CASE/SECTION macros use __COUNTER__, which clang flags under -Wpedantic
+  Add: [-Wno-c2y-extensions]
+

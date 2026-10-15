@@ -1,0 +1,10 @@
+build/
+cmake-build-default/
+cmake-build-debug/
+cmake-build-release/
+.idea/
+.vscode/
+cache/
+*.gz
+*.tar
+*.csv
